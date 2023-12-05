@@ -1,0 +1,41 @@
+.chatPage_container {
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid red; */
+}
+
+.chatPage_container .box {
+  /* border: 2px solid red; */
+  height: 90vh;
+
+}
+
+.chatPage_container .sideDrawer_box{
+    border: 5px solid rgb(211, 200, 200) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.chatPage_container .sideDrawer_box .Search_bar {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.chatPage_container .sideDrawer_box .search_btn:hover {
+  background-color: aliceblue;
+}
+
+.chatPage_container .sideDrawer_box .notification_bar {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+  .hideOnSmallScreen {
+    display: none;
+  }
+  .chatPage_container .sideDrawer_box .Search_bar {
+    border: 0px solid rgb(0, 0, 0);
+  }
+}

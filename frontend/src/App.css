@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Mulish:wght@200&family=Work+Sans:wght@300&display=swap');
+
+
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.App{
+  min-height: 110vh;
+  background-image: url('https://img.freepik.com/free-vector/vector-social-contact-seamless-pattern-white-blue_1284-41919.jpg?w=740&t=st=1698472414~exp=1698473014~hmac=52e779f11e59d31173854c2fb8e408bd36bde396bd90f330f732a410999c6bcb');
+  background-size: cover; 
+  background-position: center;
+
+}
+
